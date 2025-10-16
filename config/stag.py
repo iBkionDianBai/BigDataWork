@@ -18,6 +18,9 @@ if RUN_VER == "open":
 else:
     from blueapps.patch.settings_paas_services import *  # noqa
 
+
+BK_STATIC_URL = "/stag--" + APP_CODE
+
 # 预发布环境
 RUN_MODE = "STAGING"
 
