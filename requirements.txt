@@ -14,6 +14,9 @@ greenlet==1.1.3
 django-celery-beat==2.2.0
 django-celery-results==2.0.1
 django-cors-headers==3.7.0
+drf-yasg==1.21.11
+PyYAML==5.3.1  # 摘要6提及的依赖，drf-yasg生成文档需用到
+uritemplate==3.0.1  # 摘要6提及的依赖，处理URL参数
 
 # jwt
 pyCryptodome==3.9.7
